@@ -11,8 +11,8 @@ Thank you for your interest in contributing to our project! This guide will help
 ### Getting Started
 
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/username/my-ts-lib.git`
-3. Navigate to the project directory: `cd my-ts-lib`
+2. Clone your fork: `git clone https://github.com/username/repo-name.git`
+3. Navigate to the project directory: `cd repo-name`
 4. Install dependencies: `bun install`
 5. Start development: `bun run dev`
 
