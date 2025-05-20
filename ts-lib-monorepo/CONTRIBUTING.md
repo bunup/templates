@@ -1,4 +1,4 @@
-# Contributing to ts-lib-monorepo
+# Contributing to my-ts-lib
 
 Thank you for your interest in contributing to our project! This guide will help you get started with the development process.
 
@@ -11,8 +11,8 @@ Thank you for your interest in contributing to our project! This guide will help
 ### Getting Started
 
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/username/ts-lib-monorepo.git`
-3. Navigate to the project directory: `cd ts-lib-monorepo`
+2. Clone your fork: `git clone https://github.com/username/my-ts-lib.git`
+3. Navigate to the project directory: `cd my-ts-lib`
 4. Install dependencies: `bun install`
 5. Start development: `bun run dev`
 
@@ -60,4 +60,4 @@ Please be respectful and constructive in all interactions within our community.
 
 If you have any questions, please open an issue for discussion.
 
-Thank you for contributing to ts-lib-monorepo!
+Thank you for contributing to my-ts-lib!

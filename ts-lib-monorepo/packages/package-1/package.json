@@ -1,5 +1,5 @@
 {
-    "name": "@ts-lib-monorepo/package-1",
+    "name": "package-1",
     "version": "0.1.0",
     "description": "A typescript library",
     "type": "module",
@@ -16,8 +16,7 @@
     },
     "scripts": {
         "build": "bunup",
-        "dev": "bunup --watch",
-        "test": "bun test"
+        "dev": "bunup --watch"
     },
     "dependencies": {},
     "devDependencies": {},

@@ -1,17 +1,17 @@
-# ts-lib-monorepo
+# my-ts-lib
 
 A typescript library
 
 ## Installation
 
 ```bash
-npm install ts-lib-monorepo
+npm install package-1
 ```
 
 ## Usage
 
 ```typescript
-import { greet } from 'ts-lib-monorepo';
+import { greet } from 'package-1';
 
 console.log(greet('World')); // Hello, World!
 ```

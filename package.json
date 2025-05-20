@@ -1,28 +1,28 @@
 {
-  "name": "bunup-new",
-  "description": "Quickly scaffold new modern projects with Bun",
-  "type": "module",
-  "scripts": {
-    "lint": "biome check .",
-    "lint:fix": "biome check --write .",
-    "format": "biome format .",
-    "format:fix": "biome format --write .",
-    "tsc": "tsc --noEmit",
-    "prepare": "husky"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@commitlint/cli": "^19.8.0",
-    "@commitlint/config-conventional": "^19.8.0",
-    "husky": "^9.1.7",
-    "typescript": "^5.8.3"
-  },
-  "workspaces": ["ts-lib", "ts-lib-monorepo"],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arshad-yaseen/bunup-new.git"
-  },
-  "homepage": "https://github.com/arshad-yaseen/bunup-new#readme"
+    "name": "bunup-new",
+    "description": "Quickly scaffold new modern projects with Bun",
+    "type": "module",
+    "scripts": {
+        "lint": "biome check .",
+        "lint:fix": "biome check --write .",
+        "format": "biome format .",
+        "format:fix": "biome format --write .",
+        "tsc": "tsc --noEmit",
+        "prepare": "husky"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@biomejs/biome": "^1.9.4",
+        "@commitlint/cli": "^19.8.0",
+        "@commitlint/config-conventional": "^19.8.0",
+        "husky": "^9.1.7",
+        "typescript": "^5.8.3"
+    },
+    "workspaces": ["ts-lib", "ts-lib-monorepo"],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arshad-yaseen/bunup-new.git"
+    },
+    "homepage": "https://github.com/arshad-yaseen/bunup-new#readme"
 }
