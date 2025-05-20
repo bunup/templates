@@ -1,0 +1,37 @@
+{
+    "name": "ts-lib-monorepo-monorepo",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/username/repo-name.git"
+    },
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "build": "bunup",
+        "dev": "bunup --watch",
+        "lint": "biome check .",
+        "lint:fix": "biome check --write .",
+        "format": "biome format .",
+        "format:fix": "biome format --write .",
+        "tsc": "tsc --noEmit",
+        "test": "bun test",
+        "test:watch": "bun test --watch",
+        "test:coverage": "bun test --coverage",
+        "release": "bumpp -r --commit --push --tag",
+        "publish:ci": "bun --filter 'package-1' publish --access public --no-git-checks",
+        "prepare": "husky"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^1.9.4",
+        "@commitlint/cli": "^19.8.0",
+        "@commitlint/config-conventional": "^19.8.0",
+        "@types/bun": "^1.2.13",
+        "bumpp": "^10.1.0",
+        "bunup": "^0.7.5",
+        "husky": "^9.1.7",
+        "typescript": "^5.8.3"
+    },
+    "workspaces": ["packages/*"],
+    "homepage": "https://github.com/username/repo-name#readme",
+    "license": "MIT"
+}
