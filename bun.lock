@@ -20,7 +20,7 @@
         "@commitlint/config-conventional": "^19.8.0",
         "@types/bun": "^1.2.13",
         "bumpp": "^10.1.0",
-        "bunup": "^0.8.0",
+        "bunup": "^0.8.4",
         "husky": "^9.1.7",
         "typescript": "^5.8.3",
         "vitest": "^3.1.2",
@@ -40,7 +40,7 @@
         "@commitlint/config-conventional": "^19.8.0",
         "@types/bun": "^1.2.13",
         "bumpp": "^10.1.0",
-        "bunup": "^0.8.0",
+        "bunup": "^0.8.4",
         "husky": "^9.1.7",
         "typescript": "^5.8.3",
       },
@@ -333,11 +333,11 @@
 
     "bumpp": ["bumpp@10.1.1", "", { "dependencies": { "ansis": "^4.0.0", "args-tokenizer": "^0.3.0", "c12": "^3.0.3", "cac": "^6.7.14", "escalade": "^3.2.0", "jsonc-parser": "^3.3.1", "package-manager-detector": "^1.3.0", "semver": "^7.7.2", "tinyexec": "^1.0.1", "tinyglobby": "^0.2.13", "yaml": "^2.8.0" }, "bin": { "bumpp": "bin/bumpp.mjs" } }, "sha512-69ejE1J5O5qDN3oRu2jRas1nQmi5zEYepjzbYPpi1znuDnp+zZ9Yezsf/nYauWeoMNALQ5toniNGET05Txj2cQ=="],
 
-    "bun-dts": ["bun-dts@0.1.26", "", { "dependencies": { "coffi": "^0.1.28", "oxc-parser": "^0.68.1", "oxc-resolver": "^8.0.0", "oxc-transform": "^0.67.0", "ts-import-resolver": "^0.1.19" }, "peerDependencies": { "typescript": ">=4.5.0" }, "optionalPeers": ["typescript"] }, "sha512-Lj0VtQpI1OWQDxPSAqPgjhYEDp9KKIfC3YY7jdQwaRcbHD4bhl89evAAFcqdDo27XXlAWA2Qp/CwlJNvEqxpVA=="],
+    "bun-dts": ["bun-dts@0.1.27", "", { "dependencies": { "coffi": "^0.1.28", "oxc-parser": "^0.68.1", "oxc-resolver": "^8.0.0", "oxc-transform": "^0.67.0", "ts-import-resolver": "^0.1.19" }, "peerDependencies": { "typescript": ">=4.5.0" }, "optionalPeers": ["typescript"] }, "sha512-ophb5WnUa7UdchwYU5y4nQVuT66bEwQFShh0lH+smWRw/z+hO7DffhECiEAW38BaqC008P8sKBUfYBLumuYrkA=="],
 
     "bun-types": ["bun-types@1.2.13", "", { "dependencies": { "@types/node": "*" } }, "sha512-rRjA1T6n7wto4gxhAO/ErZEtOXyEZEmnIHQfl0Dt1QQSB4QV0iP6BZ9/YB5fZaHFQ2dwHFrmPaRQ9GGMX01k9Q=="],
 
-    "bunup": ["bunup@0.8.0", "", { "dependencies": { "@clack/prompts": "^0.10.1", "bun-dts": "^0.1.26", "chokidar": "^4.0.3", "coffi": "^0.1.28", "giget": "^2.0.0", "package-manager-detector": "^1.2.0", "replace-in-file": "^8.3.0", "tinyexec": "^1.0.1" }, "peerDependencies": { "typescript": ">=4.5.0" }, "optionalPeers": ["typescript"], "bin": { "bunup": "bin/bunup.mjs" } }, "sha512-8SvsH06jN+3OxDPpleUaeqvorJGK/sjfZZ4ePCBrCd2L+1UGLybXRC5walO6iRgs17MH4ZWzwmO5gUiYaj0NJw=="],
+    "bunup": ["bunup@0.8.4", "", { "dependencies": { "@clack/prompts": "^0.10.1", "bun-dts": "^0.1.27", "chokidar": "^4.0.3", "coffi": "^0.1.28", "giget": "^2.0.0", "package-manager-detector": "^1.2.0", "replace-in-file": "^8.3.0", "tinyexec": "^1.0.1" }, "peerDependencies": { "lightningcss": ">=1.17.0", "typescript": ">=4.5.0" }, "optionalPeers": ["lightningcss", "typescript"], "bin": { "bunup": "bin/bunup.mjs" } }, "sha512-Nk/WgyGidSW2o6jwhv5oBTK9gUb7eMR0Ed6Gb0ILengJfy6MadfxMiqD6tMlinnfd1jwBMhmN8axfRNwkg0mcA=="],
 
     "c12": ["c12@3.0.4", "", { "dependencies": { "chokidar": "^4.0.3", "confbox": "^0.2.2", "defu": "^6.1.4", "dotenv": "^16.5.0", "exsolve": "^1.0.5", "giget": "^2.0.0", "jiti": "^2.4.2", "ohash": "^2.0.11", "pathe": "^2.0.3", "perfect-debounce": "^1.0.0", "pkg-types": "^2.1.0", "rc9": "^2.1.2" }, "peerDependencies": { "magicast": "^0.3.5" }, "optionalPeers": ["magicast"] }, "sha512-t5FaZTYbbCtvxuZq9xxIruYydrAGsJ+8UdP0pZzMiK2xl/gNiSOy0OxhLzHUEEb0m1QXYqfzfvyIFEmz/g9lqg=="],
 
