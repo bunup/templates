@@ -27,11 +27,22 @@
         "@commitlint/config-conventional": "^19.8.0",
         "@types/bun": "^1.2.13",
         "bumpp": "^10.1.0",
-        "bunup": "^0.7.5",
+        "bunup": "^0.8.0",
         "husky": "^9.1.7",
         "typescript": "^5.8.3"
     },
+    "peerDependencies": {
+        "typescript": ">=4.5.0"
+    },
+    "peerDependenciesMeta": {
+        "typescript": {
+            "optional": true
+        }
+    },
     "workspaces": ["packages/*"],
     "homepage": "https://github.com/username/repo-name#readme",
+    "bugs": {
+        "url": "https://github.com/username/repo-name/issues"
+    },
     "license": "MIT"
 }
