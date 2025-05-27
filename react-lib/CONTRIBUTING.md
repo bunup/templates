@@ -30,13 +30,11 @@ This setup provides **instant rebuild and instant reflection** in the preview ap
 1. Create a new branch: `git checkout -b feature/your-feature-name`
 2. Start the full development mode (see above) for instant feedback
 3. Make your changes and test them live in the preview app
-4. Format your code: `bun run format`
-5. Run linting: `bun run lint`
-6. Run tests: `bun run test`
-7. Build the project: `bun run build`
-8. Commit your changes using the conventions below
-9. Push your branch to your fork
-10. Open a pull request
+4. Fix linting and formatting: `bun run lint:fix`
+5. Build the project: `bun run build`
+6. Commit your changes using the conventions below
+7. Push your branch to your fork
+8. Open a pull request
 
 ## Commit Message Conventions
 

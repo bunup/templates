@@ -20,13 +20,12 @@ Thank you for your interest in contributing to our project! This guide will help
 
 1. Create a new branch: `git checkout -b feature/your-feature-name`
 2. Make your changes
-3. Format your code: `bun run format`
-4. Run linting: `bun run lint`
-5. Run tests: `bun run test`
-6. Build the project: `bun run build`
-7. Commit your changes using the conventions below
-8. Push your branch to your fork
-9. Open a pull request
+3. Fix linting and formatting: `bun run lint:fix`
+4. Run tests: `bun run test`
+5. Build the project: `bun run build`
+6. Commit your changes using the conventions below
+7. Push your branch to your fork
+8. Open a pull request
 
 ## Commit Message Conventions
 
