@@ -23,7 +23,7 @@ For the best development experience with instant feedback:
 1. **Terminal 1**: Run `bun run dev` - This watches your source files and rebuilds the library instantly on any change
 2. **Terminal 2**: Run `bun run dev:test` - This starts a Next.js preview app at http://localhost:3000
 
-This setup provides **instant rebuild and instant reflection** in the preview app. When you save any component file, you'll see the changes immediately in your browser without any manual refresh. It's a beautiful development experience! ✨
+This setup provides **instant rebuild and instant reflection** in the preview app. When you save any component file, you'll see the changes immediately in your browser without any waiting. It's a beautiful development experience! ✨
 
 ## Development Workflow
 
