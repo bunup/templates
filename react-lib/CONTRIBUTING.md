@@ -62,6 +62,6 @@ Please be respectful and constructive in all interactions within our community.
 
 ## Questions?
 
-If you have any questions, please open an issue for discussion.
+If you have any questions, please [open an issue](https://github.com/username/repo-name/issues/new) for discussion.
 
 Thank you for contributing to my-react-lib!
