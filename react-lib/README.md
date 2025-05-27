@@ -1,17 +1,17 @@
-# my-ts-lib
+# my-react-lib
 
-A typescript library
+A react component library
 
 ## Installation
 
 ```bash
-npm install my-ts-lib
+npm install my-react-lib
 ```
 
 ## Usage
 
 ```typescript
-import { greet } from 'my-ts-lib';
+import { greet } from 'my-react-lib';
 
 console.log(greet('World')); // Hello, World!
 ```

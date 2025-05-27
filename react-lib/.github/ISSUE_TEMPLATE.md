@@ -7,7 +7,7 @@ Please fill out this template with all the relevant information so we can
 understand what's going on and fix the issue.
 -->
 
-- `my-ts-lib` version:
+- `my-react-lib` version:
 
 Relevant code or config
 

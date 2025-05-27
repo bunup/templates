@@ -1,4 +1,4 @@
-# Contributing to my-ts-lib
+# Contributing to my-react-lib
 
 Thank you for your interest in contributing to our project! This guide will help you get started with the development process.
 
@@ -58,4 +58,4 @@ Please be respectful and constructive in all interactions within our community.
 
 If you have any questions, please open an issue for discussion.
 
-Thank you for contributing to my-ts-lib!
+Thank you for contributing to my-react-lib!
