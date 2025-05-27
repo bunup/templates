@@ -14,12 +14,6 @@
 			"types": "./dist/index.d.ts"
 		}
 	},
-	"scripts": {
-		"build": "bunup",
-		"dev": "bunup --watch"
-	},
-	"dependencies": {},
-	"devDependencies": {},
 	"license": "MIT",
 	"repository": {
 		"type": "git",
