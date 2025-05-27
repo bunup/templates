@@ -16,8 +16,6 @@ Thank you for your interest in contributing to our project! This guide will help
 4. Install dependencies: `bun install`
 5. Start development: `bun run dev`
 
-
-
 ## Development Workflow
 
 1. Create a new branch: `git checkout -b feature/your-feature-name`
