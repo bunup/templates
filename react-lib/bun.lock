@@ -10,7 +10,7 @@
         "@types/bun": "^1.2.13",
         "@types/react": "^19.1.4",
         "bumpp": "^10.1.0",
-        "bunup": "^0.8.7",
+        "bunup": "^0.8.13",
         "husky": "^9.1.7",
         "lightningcss": "^1.30.1",
         "react": "^18.2.0",
@@ -329,11 +329,11 @@
 
     "bumpp": ["bumpp@10.1.1", "", { "dependencies": { "ansis": "^4.0.0", "args-tokenizer": "^0.3.0", "c12": "^3.0.3", "cac": "^6.7.14", "escalade": "^3.2.0", "jsonc-parser": "^3.3.1", "package-manager-detector": "^1.3.0", "semver": "^7.7.2", "tinyexec": "^1.0.1", "tinyglobby": "^0.2.13", "yaml": "^2.8.0" }, "bin": { "bumpp": "bin/bumpp.mjs" } }, "sha512-69ejE1J5O5qDN3oRu2jRas1nQmi5zEYepjzbYPpi1znuDnp+zZ9Yezsf/nYauWeoMNALQ5toniNGET05Txj2cQ=="],
 
-    "bun-dts": ["bun-dts@0.1.28", "", { "dependencies": { "coffi": "^0.1.28", "oxc-parser": "^0.68.1", "oxc-resolver": "^8.0.0", "oxc-transform": "^0.67.0", "ts-import-resolver": "^0.1.19" }, "peerDependencies": { "typescript": ">=4.5.0" }, "optionalPeers": ["typescript"] }, "sha512-qN8YkOna2SfNj8dkK41fzqilFCOBMtwRGBM5/BeFJjs0sSBfNP5A4exPzj2F6TLq63fCmefIuwUC59xS0bS7rQ=="],
+    "bun-dts": ["bun-dts@0.1.30", "", { "dependencies": { "coffi": "^0.1.30", "oxc-parser": "^0.68.1", "oxc-resolver": "^8.0.0", "oxc-transform": "^0.67.0", "picocolors": "^1.1.1", "ts-import-resolver": "^0.1.19" }, "peerDependencies": { "typescript": ">=4.5.0" }, "optionalPeers": ["typescript"] }, "sha512-fqBkfvNdrGb3XyHRtfv7S6SHv8gFuC2s9IS/PdtwPTnYtXY110WLWtghzHtwawRabsIuchCanQta+m5VIEVj7Q=="],
 
     "bun-types": ["bun-types@1.2.13", "", { "dependencies": { "@types/node": "*" } }, "sha512-rRjA1T6n7wto4gxhAO/ErZEtOXyEZEmnIHQfl0Dt1QQSB4QV0iP6BZ9/YB5fZaHFQ2dwHFrmPaRQ9GGMX01k9Q=="],
 
-    "bunup": ["bunup@0.8.7", "", { "dependencies": { "@clack/prompts": "^0.10.1", "bun-dts": "^0.1.28", "chokidar": "^4.0.3", "coffi": "^0.1.29", "giget": "^2.0.0", "replace-in-file": "^8.3.0", "tinyexec": "^1.0.1" }, "peerDependencies": { "lightningcss": ">=1.17.0", "typescript": ">=4.5.0" }, "optionalPeers": ["lightningcss", "typescript"], "bin": { "bunup": "bin/bunup.mjs" } }, "sha512-HHfRrPUX3Id3X6YJuW3hCL8RRC1Big+d4cNs3Zg7HtCfUSimmzC5BvYrb5ezmAz/lgY3oA1/75cWCrpWlzDEdA=="],
+    "bunup": ["bunup@0.8.13", "", { "dependencies": { "@clack/prompts": "^0.10.1", "bun-dts": "^0.1.30", "chokidar": "^4.0.3", "coffi": "^0.1.30", "giget": "^2.0.0", "replace-in-file": "^8.3.0", "tinyexec": "^1.0.1" }, "peerDependencies": { "lightningcss": ">=1.17.0", "typescript": ">=4.5.0" }, "optionalPeers": ["lightningcss", "typescript"], "bin": { "bunup": "bin/bunup.mjs" } }, "sha512-MJoj32Im9L+aDTuEfR2yY2Un6J6UEtVrMctIjjTW8GUHnBUl0ki9ipOLhZO4Ee14TlVfsaN+m91/1B37glM8Hw=="],
 
     "busboy": ["busboy@1.6.0", "", { "dependencies": { "streamsearch": "^1.1.0" } }, "sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA=="],
 
@@ -357,7 +357,7 @@
 
     "cliui": ["cliui@8.0.1", "", { "dependencies": { "string-width": "^4.2.0", "strip-ansi": "^6.0.1", "wrap-ansi": "^7.0.0" } }, "sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ=="],
 
-    "coffi": ["coffi@0.1.29", "", { "dependencies": { "strip-json-comments": "^5.0.1" } }, "sha512-KI3keHI1TLA0NVsHypDeCfl7C3ieBNh5rwtpb88WdEGE3o0pe3h8zn1EanVs58Va3kRdLK45CYzSzKu7Xy5TXw=="],
+    "coffi": ["coffi@0.1.30", "", { "dependencies": { "strip-json-comments": "^5.0.1" } }, "sha512-M3TyzGG3WwZyiBZxJnXxnN+E3CBoYdfkyXMiSePVsIuMrnb/43iSjfNcRKPfpCstmr2ZZ6SSIeIIsFX99NcCSA=="],
 
     "color": ["color@4.2.3", "", { "dependencies": { "color-convert": "^2.0.1", "color-string": "^1.9.0" } }, "sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A=="],
 
