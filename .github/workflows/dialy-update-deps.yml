@@ -1,0 +1,80 @@
+name: Update Dependencies
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-dependencies:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Update packages in react-lib
+        run: |
+          if [ -d "react-lib" ]; then
+            echo "Updating packages in react-lib..."
+            cd react-lib
+            bun update
+            cd ..
+          else
+            echo "react-lib directory not found"
+          fi
+
+      - name: Update packages in ts-lib
+        run: |
+          if [ -d "ts-lib" ]; then
+            echo "Updating packages in ts-lib..."
+            cd ts-lib
+            bun update
+            cd ..
+          else
+            echo "ts-lib directory not found"
+          fi
+
+      - name: Update packages in ts-lib-monorepo
+        run: |
+          if [ -d "ts-lib-monorepo" ]; then
+            echo "Updating packages in ts-lib-monorepo..."
+            cd ts-lib-monorepo
+            bun update
+            cd ..
+          else
+            echo "ts-lib-monorepo directory not found"
+          fi
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git add .
+          git commit -m "chore: update dependencies"
+          git push
+
+      - name: No changes to commit
+        if: steps.changes.outputs.has_changes == 'false'
+        run: echo "No package updates available"
