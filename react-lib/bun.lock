@@ -9,8 +9,8 @@
         "@commitlint/config-conventional": "^19.8.1",
         "@types/bun": "^1.2.16",
         "@types/react": "^19.1.8",
-        "bumpp": "^10.1.1",
-        "bunup": "^0.8.38",
+        "bumpp": "^10.2.0",
+        "bunup": "^0.8.43",
         "husky": "^9.1.7",
         "lightningcss": "^1.30.1",
         "react": "^19.1.0",
@@ -317,7 +317,7 @@
 
     "bun-types": ["bun-types@1.2.16", "", { "dependencies": { "@types/node": "*" } }, "sha512-ciXLrHV4PXax9vHvUrkvun9VPVGOVwbbbBF/Ev1cXz12lyEZMoJpIJABOfPcN9gDJRaiKF9MVbSygLg4NXu3/A=="],
 
-    "bunup": ["bunup@0.8.43", "", { "dependencies": { "@clack/prompts": "^0.10.1", "bun-dts": "^0.1.70", "chokidar": "^4.0.3", "coffi": "^0.1.31", "giget": "^2.0.0", "picocolors": "^1.1.1", "replace-in-file": "^8.3.0", "tinyexec": "^1.0.1" }, "peerDependencies": { "lightningcss": ">=1.17.0", "typescript": ">=4.5.0" }, "optionalPeers": ["lightningcss", "typescript"], "bin": { "bunup": "dist/cli/index.js" } }, "sha512-ljpznqXISSbwsSyUFdtjWbOdABT+4Mbkzvy/01RiCUdYwdUQcM5n+tHQiNCO2CVk8loCpruBAyyDt5sY+pwQGA=="],
+    "bunup": ["bunup@0.8.45", "", { "dependencies": { "@clack/prompts": "^0.10.1", "bun-dts": "^0.1.70", "chokidar": "^4.0.3", "coffi": "^0.1.31", "giget": "^2.0.0", "picocolors": "^1.1.1", "replace-in-file": "^8.3.0", "tinyexec": "^1.0.1" }, "peerDependencies": { "lightningcss": ">=1.17.0", "typescript": ">=4.5.0" }, "optionalPeers": ["lightningcss", "typescript"], "bin": { "bunup": "dist/cli/index.js" } }, "sha512-fOIJ/36pWSI4B/I6MPlIR/4kEQyGCqC2EVxl95bJTd0GhMcMVsLIXqGUJwivm098RJklXiw4YKorM83/Lui+7g=="],
 
     "busboy": ["busboy@1.6.0", "", { "dependencies": { "streamsearch": "^1.1.0" } }, "sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA=="],
 
