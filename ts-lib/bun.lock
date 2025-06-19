@@ -9,10 +9,10 @@
         "@commitlint/config-conventional": "^19.8.1",
         "@types/bun": "^1.2.16",
         "bumpp": "^10.2.0",
-        "bunup": "^0.8.43",
+        "bunup": "^0.8.45",
         "husky": "^9.1.7",
         "typescript": "^5.8.3",
-        "vitest": "^3.2.3",
+        "vitest": "^3.2.4",
       },
       "peerDependencies": {
         "typescript": ">=4.5.0",
