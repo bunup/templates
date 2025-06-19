@@ -37,8 +37,7 @@
 		"bumpp": "^10.2.0",
 		"bunup": "^0.8.45",
 		"husky": "^9.1.7",
-		"typescript": "^5.8.3",
-		"vitest": "^3.2.4"
+		"typescript": "^5.8.3"
 	},
 	"repository": {
 		"type": "git",
