@@ -27,7 +27,7 @@
 		"@commitlint/config-conventional": "^19.8.1",
 		"@types/bun": "^1.2.16",
 		"bumpp": "^10.2.0",
-		"bunup": "^0.8.45",
+		"bunup": "^0.8.46",
 		"husky": "^9.1.7",
 		"typescript": "^5.8.3"
 	},
