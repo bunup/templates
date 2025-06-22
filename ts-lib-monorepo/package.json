@@ -25,9 +25,9 @@
 		"@biomejs/biome": "^1.9.4",
 		"@commitlint/cli": "^19.8.1",
 		"@commitlint/config-conventional": "^19.8.1",
-		"@types/bun": "^1.2.16",
+		"@types/bun": "^1.2.17",
 		"bumpp": "^10.2.0",
-		"bunup": "^0.8.46",
+		"bunup": "^0.8.47",
 		"husky": "^9.1.7",
 		"typescript": "^5.8.3"
 	},
