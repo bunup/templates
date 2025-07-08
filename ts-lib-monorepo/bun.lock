@@ -7,9 +7,9 @@
         "@biomejs/biome": "^1.9.4",
         "@commitlint/cli": "^19.8.1",
         "@commitlint/config-conventional": "^19.8.1",
-        "@types/bun": "^1.2.17",
+        "@types/bun": "^1.2.18",
         "bumpp": "^10.2.0",
-        "bunup": "^0.8.58",
+        "bunup": "^0.8.59",
         "husky": "^9.1.7",
         "typescript": "^5.8.3",
       },
@@ -184,7 +184,7 @@
 
     "bun-types": ["bun-types@1.2.18", "", { "dependencies": { "@types/node": "*" }, "peerDependencies": { "@types/react": "^19" } }, "sha512-04+Eha5NP7Z0A9YgDAzMk5PHR16ZuLVa83b26kH5+cp1qZW4F6FmAURngE7INf4tKOvCE69vYvDEwoNl1tGiWw=="],
 
-    "bunup": ["bunup@0.8.58", "", { "dependencies": { "@clack/prompts": "^0.10.1", "chokidar": "^4.0.3", "coffi": "^0.1.31", "giget": "^2.0.0", "picocolors": "^1.1.1", "replace-in-file": "^8.3.0", "tinyexec": "^1.0.1", "typeroll": "^0.6.16" }, "peerDependencies": { "lightningcss": ">=1.17.0", "typescript": ">=4.5.0" }, "optionalPeers": ["lightningcss", "typescript"], "bin": { "bunup": "dist/cli/index.js" } }, "sha512-bbrrZRQdc0DRAGlzqabENIuGGf9tOs2FXhkgSV+5NMW5+T7wTWz2jHBRlGVnkGBiMtXwJ8cQmtrJU9uOX4DTUg=="],
+    "bunup": ["bunup@0.8.59", "", { "dependencies": { "@clack/prompts": "^0.10.1", "chokidar": "^4.0.3", "coffi": "^0.1.31", "giget": "^2.0.0", "picocolors": "^1.1.1", "replace-in-file": "^8.3.0", "tinyexec": "^1.0.1", "typeroll": "^0.6.16" }, "peerDependencies": { "lightningcss": ">=1.17.0", "typescript": ">=4.5.0" }, "optionalPeers": ["lightningcss", "typescript"], "bin": { "bunup": "dist/cli/index.js" } }, "sha512-p1Gi12MlbDWyaf/5WS9IE8aU9NZTE+YIwpolXYOp3Ut8ONnXkQsMTDSid4xU9U+M+qRCUtfafqpumuYi9q0B2g=="],
 
     "c12": ["c12@3.0.4", "", { "dependencies": { "chokidar": "^4.0.3", "confbox": "^0.2.2", "defu": "^6.1.4", "dotenv": "^16.5.0", "exsolve": "^1.0.5", "giget": "^2.0.0", "jiti": "^2.4.2", "ohash": "^2.0.11", "pathe": "^2.0.3", "perfect-debounce": "^1.0.0", "pkg-types": "^2.1.0", "rc9": "^2.1.2" }, "peerDependencies": { "magicast": "^0.3.5" }, "optionalPeers": ["magicast"] }, "sha512-t5FaZTYbbCtvxuZq9xxIruYydrAGsJ+8UdP0pZzMiK2xl/gNiSOy0OxhLzHUEEb0m1QXYqfzfvyIFEmz/g9lqg=="],
 
