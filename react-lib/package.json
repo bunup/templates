@@ -1,17 +1,22 @@
 {
 	"name": "my-react-lib",
-	"version": "0.1.0",
 	"description": "A react component library",
+	"version": "0.1.0",
 	"type": "module",
 	"files": ["dist"],
-	"main": "./dist/index.cjs",
 	"module": "./dist/index.js",
+	"main": "./dist/index.cjs",
 	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/index.js",
-			"require": "./dist/index.cjs",
-			"types": "./dist/index.d.ts"
+			"import": {
+				"types": "./dist/index.d.ts",
+				"default": "./dist/index.js"
+			},
+			"require": {
+				"types": "./dist/index.d.cts",
+				"default": "./dist/index.cjs"
+			}
 		}
 	},
 	"scripts": {
@@ -34,7 +39,7 @@
 		"@types/bun": "^1.2.18",
 		"@types/react": "^19.1.8",
 		"bumpp": "^10.2.0",
-		"bunup": "^0.8.59",
+		"bunup": "^0.8.60",
 		"husky": "^9.1.7",
 		"lightningcss": "^1.30.1",
 		"react": "^19.1.0",
