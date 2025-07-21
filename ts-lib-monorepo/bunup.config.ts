@@ -6,7 +6,7 @@ export default defineWorkspace([
 		root: 'packages/package-1',
 		config: {
 			entry: ['src/index.ts'],
-			format: ["esm", "cjs"],
+			format: ['esm', 'cjs'],
 		},
 	},
 ])
