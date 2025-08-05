@@ -10,3 +10,4 @@
 .next
 .next/cache
 .next/types
+node_modules
