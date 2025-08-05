@@ -3,6 +3,6 @@ import { injectStyles } from 'bunup/plugins'
 
 export default defineConfig({
 	entry: ['src/index.tsx'],
-	format: ["esm", "cjs"],
+	format: ['esm', 'cjs'],
 	plugins: [injectStyles()],
 })

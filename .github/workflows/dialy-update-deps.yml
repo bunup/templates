@@ -8,6 +8,9 @@ on:
 jobs:
   update-dependencies:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -19,14 +22,7 @@ jobs:
           bun-version: latest
 
       - name: Update packages in each directory
-        run: |
-          dirs=("react-lib" "ts-lib" "ts-lib-monorepo")
-          for dir in "${dirs[@]}"; do
-            echo "Updating dependencies in $dir..."
-            cd "$dir"
-            bun update
-            cd -
-          done
+        run: bun run update-deps.ts
 
       - name: Commit and push changes
         run: |
