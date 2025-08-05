@@ -7,7 +7,7 @@ const packages = [
 ]
 
 for (const p of packages) {
-  await $`bun update`
+  await $`cd ${p} && bun update`
   const packageJson = await Bun.file(`${p}/package.json`).json()
   const biomeVersion = packageJson.devDependencies['@biomejs/biome'].slice(1)
   const biomeSchema = await Bun.file(`${p}/biome.json`).json()

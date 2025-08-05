@@ -22,7 +22,7 @@ jobs:
           bun-version: latest
 
       - name: Update packages in each directory
-        run: bun run update-deps.ts
+        run: bun run update-deps.js
 
       - name: Commit and push changes
         run: |
