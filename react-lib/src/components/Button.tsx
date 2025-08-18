@@ -1,7 +1,7 @@
 'use client'
 
-import React, { type JSX, type PropsWithChildren } from 'react'
+import { type PropsWithChildren } from 'react'
 
-export const Button = ({ children }: PropsWithChildren): JSX.Element => {
+export const Button = ({ children }: PropsWithChildren): React.ReactNode => {
 	return <button type="button">{children}</button>
 }
