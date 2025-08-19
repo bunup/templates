@@ -3,7 +3,9 @@
 	"description": "A react component library",
 	"version": "0.1.0",
 	"type": "module",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"module": "./dist/index.js",
 	"main": "./dist/index.cjs",
 	"types": "./dist/index.d.ts",
@@ -33,11 +35,11 @@
 		"prepare": "simple-git-hooks"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.9.4",
+		"@biomejs/biome": "^2.2.0",
 		"@types/bun": "^1.2.20",
 		"@types/react": "^19.1.10",
 		"bumpp": "^10.2.3",
-		"bunup": "^0.8.72",
+		"bunup": "^0.11.0",
 		"lightningcss": "^1.30.1",
 		"react": "^19.1.1",
 		"react-dom": "^19.1.1",
@@ -65,6 +67,8 @@
 	"bugs": {
 		"url": "https://github.com/username/repo-name/issues"
 	},
-	"workspaces": ["test"],
+	"workspaces": [
+		"test"
+	],
 	"homepage": "https://github.com/username/repo-name#readme"
 }
