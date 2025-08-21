@@ -1,4 +1,4 @@
-import { Button } from '../../../dist/index'
+import { Button } from '../../../dist'
 
 export default function Home() {
 	return (
