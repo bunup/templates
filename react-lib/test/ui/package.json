@@ -7,12 +7,12 @@
 		"dev": "bun --hot index.tsx"
 	},
 	"dependencies": {
-		"react": "^19",
-		"react-dom": "^19"
+		"react": "^19.1.1",
+		"react-dom": "^19.1.1"
 	},
 	"devDependencies": {
-		"@types/react": "^19",
-		"@types/react-dom": "^19",
-		"@types/bun": "latest"
+		"@types/react": "^19.1.11",
+		"@types/react-dom": "^19.1.7",
+		"@types/bun": "^1.2.20"
 	}
 }
