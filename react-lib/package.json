@@ -23,8 +23,8 @@
 	},
 	"scripts": {
 		"build": "bunup",
-		"dev": "bunup --watch",
-		"dev:test": "bun run --cwd test dev",
+		"dev": "bunup --watch --clean=false",
+		"test:ui": "bun run --cwd test/ui dev",
 		"lint": "biome check .",
 		"lint:fix": "biome check --write .",
 		"format": "biome format .",
@@ -68,7 +68,7 @@
 		"url": "https://github.com/username/repo-name/issues"
 	},
 	"workspaces": [
-		"test"
+		"test/**"
 	],
 	"homepage": "https://github.com/username/repo-name#readme"
 }
