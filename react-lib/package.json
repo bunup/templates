@@ -19,7 +19,8 @@
 				"types": "./dist/index.d.cts",
 				"default": "./dist/index.cjs"
 			}
-		}
+		},
+		"./styles.css": "./dist/index.css"
 	},
 	"scripts": {
 		"build": "bunup",
@@ -31,7 +32,6 @@
 		"format:fix": "biome format --write .",
 		"tsc": "tsc --noEmit",
 		"release": "bumpp --commit --push --tag",
-		"publish:ci": "bun publish --access public --no-git-checks",
 		"prepare": "simple-git-hooks"
 	},
 	"devDependencies": {
