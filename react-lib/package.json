@@ -24,8 +24,7 @@
 	},
 	"scripts": {
 		"build": "bunup",
-		"dev": "bunup --watch --clean=false",
-		"test:ui": "bun run --cwd test/ui dev",
+		"dev": "bun run --cwd test/ui dev",
 		"lint": "biome check .",
 		"lint:fix": "biome check --write .",
 		"format": "biome format .",

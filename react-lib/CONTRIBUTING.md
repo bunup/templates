@@ -16,19 +16,14 @@ Thank you for your interest in contributing to our project! This guide will help
 4. Install dependencies: `bun install`
 5. Start development: `bun run dev`
 
-### Full Development Mode (Recommended)
+### Development Mode
 
-For the best development experience with instant feedback:
-
-1. **Terminal 1**: Run `bun run dev` - This watches your source files and rebuilds the library instantly on any change
-2. **Terminal 2**: Run `bun run test:ui` - This starts a Bun + React preview app at http://localhost:3000 to test components realtime.
-
-This setup provides **instant rebuild and instant reflection** in the preview app. When you save any component file, you'll see the changes immediately in your browser without any waiting.
+Run `bun run dev` - This starts a Bun + React preview app at http://localhost:3000 to test components in real-time.
 
 ## Development Workflow
 
 1. Create a new branch: `git checkout -b feature/your-feature-name`
-2. Start the full development mode (see above) for instant feedback
+2. Start development mode: `bun run dev`
 3. Make your changes and test them live in the preview app
 4. Fix linting and formatting: `bun run lint:fix`
 5. Build the project: `bun run build`

@@ -5,12 +5,13 @@ A react component library
 ## Installation
 
 ```bash
-npm install my-react-lib
+bun add my-react-lib
 ```
 
 ## Usage
 
 ```tsx
+import 'my-react-lib/styles.css';
 import { Button } from 'my-react-lib';
 
 function App() {

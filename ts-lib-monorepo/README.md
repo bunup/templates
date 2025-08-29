@@ -5,7 +5,7 @@ A typescript library
 ## Installation
 
 ```bash
-npm install package-1
+bun add package-1
 ```
 
 ## Usage

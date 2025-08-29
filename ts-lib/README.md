@@ -5,7 +5,7 @@ A typescript library
 ## Installation
 
 ```bash
-npm install my-ts-lib
+bun add my-ts-lib
 ```
 
 ## Usage

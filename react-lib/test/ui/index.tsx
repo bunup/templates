@@ -1,15 +1,10 @@
 import { serve } from 'bun'
 import index from './index.html'
 
-const server = serve({
+serve({
 	routes: {
 		'/*': index,
 	},
-
-	development: {
-		hmr: true,
-		console: true,
-	},
 })
 
-console.log(`Server running at ${server.url}`)
+console.log('🚀 Server running at http://localhost:3000')
