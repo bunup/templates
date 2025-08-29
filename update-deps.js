@@ -5,6 +5,9 @@ const packages = [
   "react-lib/test/ui",
   "ts-lib",
   "ts-lib-monorepo",
+  "react-lib-basic",
+  "ts-lib-basic",
+  "ts-lib-monorepo-basic",
 ]
 
 for (const p of packages) {
