@@ -1,15 +1,25 @@
+import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { App } from './app'
 
-function start() {
-	const elem = document.getElementById('root')
-	if (!elem) return
-	const root = createRoot(elem)
-	root.render(<App />)
+const elem = document.getElementById('root')
+
+if (!elem) {
+	throw new Error('Could not find root element')
 }
 
-if (document.readyState === 'loading') {
-	document.addEventListener('DOMContentLoaded', start)
+const app = (
+	<StrictMode>
+		<App />
+	</StrictMode>
+)
+
+if (import.meta.hot) {
+	if (!import.meta.hot.data.root) {
+		import.meta.hot.data.root = createRoot(elem)
+	}
+	const root = import.meta.hot.data.root
+	root.render(app)
 } else {
-	start()
+	createRoot(elem).render(app)
 }
