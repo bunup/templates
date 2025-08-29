@@ -29,7 +29,10 @@ jobs:
                     continue-on-error: true
                     env:
                           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-                  - run: npm publish --workspaces --access public
+                  - run: |
+                      for dir in packages/*/; do
+                        (cd "$dir" && bun publish --access public)
+                      done
                     env:
                           NPM_CONFIG_TOKEN: ${{ secrets.NPM_TOKEN }}
                           NPM_CONFIG_PROVENANCE: true
