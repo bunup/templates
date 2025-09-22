@@ -31,7 +31,7 @@
 		"format:fix": "biome format --write .",
 		"tsc": "tsc --noEmit",
 		"release": "bumpp --commit --push --tag",
-		"prepare": "simple-git-hooks"
+		"prepare": "bunx simple-git-hooks"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.2.4",
