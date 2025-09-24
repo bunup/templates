@@ -33,7 +33,7 @@
 		"test:watch": "bun test --watch",
 		"test:coverage": "bun test --coverage",
 		"release": "bumpp --commit --push --tag",
-		"prepare": "bunx simple-git-hooks"
+		"prepare": "bun simple-git-hooks"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.2.4",
@@ -56,7 +56,7 @@
 		}
 	},
 	"simple-git-hooks": {
-		"pre-commit": "bun run lint:fix && git add ."
+		"pre-commit": "bun run lint"
 	},
 	"homepage": "https://github.com/username/repo-name#readme",
 	"bugs": {
