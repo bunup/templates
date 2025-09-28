@@ -1,5 +1,7 @@
 import { defineWorkspace } from 'bunup'
 
+// Learn more about Bunup workspaces: https://bunup.dev/docs/guide/workspaces
+
 export default defineWorkspace([
 	{
 		name: 'package-1',
@@ -9,4 +11,7 @@ export default defineWorkspace([
 			format: ['esm', 'cjs'],
 		},
 	},
-])
+], {
+  exports: true,
+	unused: true
+})

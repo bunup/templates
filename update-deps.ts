@@ -21,6 +21,6 @@ for (const p of packages) {
       $schema: `https://biomejs.dev/schemas/${biomeVersion}/schema.json`,
     }
     await Bun.write(`${p}/biome.json`, JSON.stringify(newBiomeSchema, null, 2))
-    await $`cd ${p} && bun run lint:fix`
+    await $`cd ${p} && bun run build && bun run lint:fix && rm -rf .husky`
   } catch {}
 }
