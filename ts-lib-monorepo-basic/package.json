@@ -9,7 +9,7 @@
 	"devDependencies": {
 		"@types/bun": "^1.2.23",
 		"bunup": "^0.14.9",
-		"typescript": "^5.9.2"
+		"typescript": "^5.9.3"
 	},
 	"workspaces": [
 		"packages/*"

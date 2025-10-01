@@ -42,7 +42,7 @@
 		"bumpp": "^10.2.3",
 		"bunup": "^0.14.9",
 		"simple-git-hooks": "^2.13.1",
-		"typescript": "^5.9.2"
+		"typescript": "^5.9.3"
 	},
 	"repository": {
 		"type": "git",
