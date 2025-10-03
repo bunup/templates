@@ -21,7 +21,7 @@
 		"prepare": "bun simple-git-hooks"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.2.4",
+		"@biomejs/biome": "^2.2.5",
 		"@types/bun": "^1.2.23",
 		"bumpp": "^10.2.3",
 		"bunup": "^0.14.11",
