@@ -33,7 +33,7 @@
     "@types/bun": "^1.2.23",
     "@types/react": "^19.2.0",
     "bumpp": "^10.2.3",
-    "bunup": "^0.14.17",
+    "bunup": "^0.14.18",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "simple-git-hooks": "^2.13.1",

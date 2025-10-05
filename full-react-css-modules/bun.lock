@@ -64,9 +64,9 @@
 
     "@biomejs/cli-win32-x64": ["@biomejs/cli-win32-x64@2.2.5", "", { "os": "win32", "cpu": "x64" }, "sha512-F/jhuXCssPFAuciMhHKk00xnCAxJRS/pUzVfXYmOMUp//XW7mO6QeCjsjvnm8L4AO/dG2VOB0O+fJPiJ2uXtIw=="],
 
-    "@bunup/dts": ["@bunup/dts@0.14.17", "", { "dependencies": { "@babel/parser": "^7.28.4", "coffi": "^0.1.37", "oxc-minify": "^0.93.0", "oxc-resolver": "^11.9.0", "oxc-transform": "^0.93.0", "picocolors": "^1.1.1", "std-env": "^3.9.0", "ts-import-resolver": "^0.1.23" }, "peerDependencies": { "typescript": "latest" }, "optionalPeers": ["typescript"] }, "sha512-6EenZC/2BQBdqI3TIrcNnk83kGpvCCf2Yorup646amIe4Sb4x4eVUENjKQIRHE4dcPYdMBLGsaI6Iro7PN9gtQ=="],
+    "@bunup/dts": ["@bunup/dts@0.14.18", "", { "dependencies": { "@babel/parser": "^7.28.4", "coffi": "^0.1.37", "oxc-minify": "^0.93.0", "oxc-resolver": "^11.9.0", "oxc-transform": "^0.93.0", "picocolors": "^1.1.1", "std-env": "^3.9.0", "ts-import-resolver": "^0.1.23" }, "peerDependencies": { "typescript": "latest" }, "optionalPeers": ["typescript"] }, "sha512-/mx3QzK4W/rv43PP+8ihtFKT7ON7XG7snSJwu91WbG78rdTMJ3DzYVGFSSQ1IBseWeLtrS7E3VMc2mIwow1aiA=="],
 
-    "@bunup/shared": ["@bunup/shared@0.14.17", "", { "peerDependencies": { "typescript": ">=4.5.0" }, "optionalPeers": ["typescript"] }, "sha512-TeRog7ce1H2eMTHk7L2AUAoc9JoBeXZpNSVMt/TVPB4/N3sUwdmObq3vrsX6CFgUCv8+9ONZkpIuMtnJPtlPfQ=="],
+    "@bunup/shared": ["@bunup/shared@0.14.18", "", { "peerDependencies": { "typescript": ">=4.5.0" }, "optionalPeers": ["typescript"] }, "sha512-nP5v+mR5SOGc0XXajyhsPnXD3JUlKk11cIoxjzL3uitwn/iuBPl9MM6ynX14no2vGiBKsve8ifOB9csxelFnRw=="],
 
     "@emnapi/core": ["@emnapi/core@1.5.0", "", { "dependencies": { "@emnapi/wasi-threads": "1.1.0", "tslib": "^2.4.0" } }, "sha512-sbP8GzB1WDzacS8fgNPpHlp6C9VZe+SJP3F90W9rLemaQj2PzIuTEl1qDOYQf58YIpyjViI24y9aPWCjEzY2cg=="],
 
@@ -194,7 +194,7 @@
 
     "bun-types": ["bun-types@1.2.23", "", { "dependencies": { "@types/node": "*" }, "peerDependencies": { "@types/react": "^19" } }, "sha512-R9f0hKAZXgFU3mlrA0YpE/fiDvwV0FT9rORApt2aQVWSuJDzZOyB5QLc0N/4HF57CS8IXJ6+L5E4W1bW6NS2Aw=="],
 
-    "bunup": ["bunup@0.14.17", "", { "dependencies": { "@bunup/dts": "0.14.17", "@bunup/shared": "0.14.17", "chokidar": "^4.0.3", "coffi": "^0.1.37", "lightningcss": "^1.30.2", "picocolors": "^1.1.1", "tinyexec": "^1.0.1", "tree-kill": "^1.2.2", "zlye": "^0.4.4" }, "peerDependencies": { "typescript": "latest" }, "optionalPeers": ["typescript"], "bin": { "bunup": "dist/cli/index.js" } }, "sha512-haJ2+McYrpLGKOldtaKK3kxcyg2a1dyvbXMfd5h3xJCK27JKRYzqbElbdH8HJ7t/0C9aWlso5Zsjlk9/tY01IA=="],
+    "bunup": ["bunup@0.14.18", "", { "dependencies": { "@bunup/dts": "0.14.18", "@bunup/shared": "0.14.18", "chokidar": "^4.0.3", "coffi": "^0.1.37", "lightningcss": "^1.30.2", "picocolors": "^1.1.1", "tinyexec": "^1.0.1", "tree-kill": "^1.2.2", "zlye": "^0.4.4" }, "peerDependencies": { "typescript": "latest" }, "optionalPeers": ["typescript"], "bin": { "bunup": "dist/cli/index.js" } }, "sha512-14/UIXs60+Ewwo9jPvDsFyLMlviPEa3Bif3LTAnaesGZbgQoxI1tC0qJHpyoFqOtNILPmNl4yrKLNsYxdnq6Pw=="],
 
     "c12": ["c12@3.3.0", "", { "dependencies": { "chokidar": "^4.0.3", "confbox": "^0.2.2", "defu": "^6.1.4", "dotenv": "^17.2.2", "exsolve": "^1.0.7", "giget": "^2.0.0", "jiti": "^2.5.1", "ohash": "^2.0.11", "pathe": "^2.0.3", "perfect-debounce": "^2.0.0", "pkg-types": "^2.3.0", "rc9": "^2.1.2" }, "peerDependencies": { "magicast": "^0.3.5" }, "optionalPeers": ["magicast"] }, "sha512-K9ZkuyeJQeqLEyqldbYLG3wjqwpw4BVaAqvmxq3GYKK0b1A/yYQdIcJxkzAOWcNVWhJpRXAPfZFueekiY/L8Dw=="],
 

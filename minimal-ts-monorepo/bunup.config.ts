@@ -5,6 +5,6 @@ import { defineWorkspace } from 'bunup'
 export default defineWorkspace([
 	{
 		name: '[first_package_name]',
-		root: 'packages/[first_package_name]',
-	},
+		root: 'packages/[first_package_name]'
+	}
 ])
