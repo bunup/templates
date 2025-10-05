@@ -38,15 +38,15 @@
 		"prepare": "bun simple-git-hooks"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.2.4",
+		"@biomejs/biome": "^2.2.5",
 		"@types/bun": "^1.2.23",
-		"@types/react": "^19.1.15",
+		"@types/react": "^19.2.0",
 		"bumpp": "^10.2.3",
-		"bunup": "^0.14.9",
-		"react": "^19.1.1",
-		"react-dom": "^19.1.1",
+		"bunup": "^0.14.16",
+		"react": "^19.2.0",
+		"react-dom": "^19.2.0",
 		"simple-git-hooks": "^2.13.1",
-		"typescript": "^5.9.2"
+		"typescript": "^5.9.3"
 	},
 	"peerDependencies": {
 		"typescript": ">=4.5.0",
