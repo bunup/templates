@@ -1,0 +1,45 @@
+{
+  "name": "[project_name]-monorepo",
+  "homepage": "https://github.com/[username]/[repo_name]#readme",
+  "bugs": {
+    "url": "https://github.com/[username]/[repo_name]/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/[username]/[repo_name].git"
+  },
+  "scripts": {
+    "build": "bunup",
+    "dev": "bunup --watch",
+    "format": "biome format .",
+    "format:fix": "biome format --write .",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "prepare": "bun simple-git-hooks",
+    "release": "bumpp -r --commit --push --tag",
+    "test": "bun test",
+    "test:coverage": "bun test --coverage",
+    "test:watch": "bun test --watch",
+    "tsc": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.5",
+    "@types/bun": "^1.2.23",
+    "@types/react": "^19.2.0",
+    "bumpp": "^10.2.3",
+    "bunup": "^0.14.16",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "simple-git-hooks": "^2.13.1",
+    "typescript": "^5.9.3"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "type": "module",
+  "simple-git-hooks": {
+    "pre-commit": "bun run lint"
+  }
+}

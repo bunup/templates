@@ -1,4 +1,4 @@
-name: Update Dependencies
+name: Daily
 
 on:
   workflow_dispatch:
@@ -18,8 +18,8 @@ jobs:
         with:
           bun-version: latest
 
-      - name: Update packages in each directory
-        run: bun update-deps.ts
+      - name: Run daily
+        run: bun daily.ts
 
       - name: Commit changes
         run: |
