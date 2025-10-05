@@ -24,3 +24,5 @@ for (const p of packages) {
     await $`cd ${p} && bun run build && rm -rf .husky && bun run lint:fix`
   } catch {}
 }
+
+await $`bunx better-sort-package-json **/package.json`

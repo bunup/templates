@@ -12,7 +12,7 @@
         "typescript": "latest",
       },
     },
-    "packages/package-1": {
+    "packages/[first_package_name]": {
       "name": "[first_package_name]",
       "version": "0.1.0",
       "peerDependencies": {
@@ -168,7 +168,7 @@
 
     "@types/react": ["@types/react@19.2.0", "", { "dependencies": { "csstype": "^3.0.2" } }, "sha512-1LOH8xovvsKsCBq1wnT4ntDUdCJKmnEakhsuoUSy6ExlHCkGP2hqnatagYTgFk6oeL0VU31u7SNjunPN+GchtA=="],
 
-    "[first_package_name]": ["[first_package_name]@workspace:packages/package-1"],
+    "[first_package_name]": ["[first_package_name]@workspace:packages/[first_package_name]"],
 
     "ansis": ["ansis@4.2.0", "", {}, "sha512-HqZ5rWlFjGiV0tDm3UxxgNRqsOTniqoKZu0pIAfh7TZQMGuZK+hH0drySty0si0QXj1ieop4+SkSfPZBPPkHig=="],
 
