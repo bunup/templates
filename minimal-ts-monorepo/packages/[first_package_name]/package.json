@@ -1,0 +1,34 @@
+{
+  "name": "[first_package_name]",
+  "version": "0.1.0",
+  "description": "A typescript library",
+  "homepage": "https://github.com/[username]/[repo_name]/tree/main/packages/[first_package_name]#readme",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/[username]/[repo_name].git"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.5.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts"
+}
