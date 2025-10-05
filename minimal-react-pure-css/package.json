@@ -2,42 +2,22 @@
   "name": "[project_name]",
   "version": "0.1.0",
   "description": "[project_description]",
-  "homepage": "https://github.com/[username]/[repo_name]#readme",
-  "bugs": {
-    "url": "https://github.com/[username]/[repo_name]/issues"
-  },
   "license": "MIT",
   "files": [
     "dist"
   ],
   "main": "./dist/index.cjs",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/[username]/[repo_name].git"
-  },
   "scripts": {
     "build": "bunup",
-    "dev": "bun run --cwd test/ui dev",
-    "format": "biome format .",
-    "format:fix": "biome format --write .",
-    "lint": "biome check .",
-    "lint:fix": "biome check --write .",
-    "prepare": "bun simple-git-hooks",
-    "release": "bumpp --commit --push --tag",
-    "test": "bun test",
-    "test:coverage": "bun test --coverage",
-    "test:watch": "bun test --watch",
-    "tsc": "tsc --noEmit"
+    "dev": "bunup --watch"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.5",
     "@types/bun": "^1.2.23",
     "@types/react": "^19.2.0",
-    "bumpp": "^10.2.3",
-    "bunup": "^0.14.16",
+    "@types/react-dom": "^19.2.0",
+    "bunup": "^0.14.17",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "simple-git-hooks": "^2.13.1",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
@@ -50,9 +30,6 @@
       "optional": true
     }
   },
-  "workspaces": [
-    "test/**"
-  ],
   "type": "module",
   "exports": {
     ".": {
@@ -65,12 +42,8 @@
         "default": "./dist/index.cjs"
       }
     },
-    "./styles.css": "./dist/index.css",
-    "./package.json": "./package.json"
+    "./styles.css": "./dist/index.css"
   },
   "module": "./dist/index.js",
-  "simple-git-hooks": {
-    "pre-commit": "bun run lint"
-  },
   "types": "./dist/index.d.ts"
 }

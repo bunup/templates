@@ -1,10 +1,11 @@
 import {$} from 'bun'
 
 const packages = [
-  "full-react",
+  "full-react-pure-css",
+  "full-react-css-modules",
   "full-ts",
   "full-ts-monorepo",
-  "minimal-react",
+  "minimal-react-pure-css",
   "minimal-ts",
   "minimal-ts-monorepo",
 ]
