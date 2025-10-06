@@ -26,7 +26,7 @@
   "devDependencies": {
     "@biomejs/biome": "^2.2.5",
     "@types/bun": "^1.2.23",
-    "bumpp": "^10.2.3",
+    "bumpp": "^10.3.1",
     "bunup": "^0.14.18",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^5.9.3"

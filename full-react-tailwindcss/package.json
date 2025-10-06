@@ -33,7 +33,7 @@
     "@bunup/plugin-tailwindcss": "^0.14.18",
     "@types/bun": "^1.2.23",
     "@types/react": "^19.2.0",
-    "bumpp": "^10.2.3",
+    "bumpp": "^10.3.1",
     "bunup": "^0.14.18",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",

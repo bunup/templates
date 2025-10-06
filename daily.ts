@@ -54,9 +54,9 @@ for (const p of packages) {
   }
 
   try {
-    await $`cd ${p} && bun run build && rm -rf .husky`
+    await $`cd ${p} && rm -rf .husky`
   } catch (error) {
-    logError(p, 'Build package', error)
+    logError(p, 'Remove .husky', error)
     continue
   }
 
