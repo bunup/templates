@@ -1,1 +1,1 @@
-@import "tailwindcss" prefix(yuku);
+@import "tailwindcss" prefix([project_name_letter_only]);
