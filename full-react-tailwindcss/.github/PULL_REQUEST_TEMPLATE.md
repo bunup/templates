@@ -1,35 +1,45 @@
-<!--
-Thanks for your interest in the project. Bugs filed and PRs submitted are appreciated!
+## Description
 
-Please make sure that you are familiar with and follow the Code of Conduct for
-this project (found in the CODE_OF_CONDUCT.md file).
+<!-- Briefly describe what this PR does -->
 
-Please fill out the information below to expedite the review and (hopefully)
-merge of your pull request!
--->
+## Type of Change
 
-<!-- What changes are being made? (What feature/bug is being fixed here?) -->
+<!-- Check the relevant option -->
 
-**What**:
+- [ ] 🐛 Bug fix
+- [ ] ✨ New feature
+- [ ] 💥 Breaking change
+- [ ] 📝 Documentation
+- [ ] ♻️ Refactoring
+- [ ] ⚡ Performance
+- [ ] ✅ Tests
+- [ ] 🔧 Build/CI
 
-<!-- Why are these changes necessary? -->
+## Related Issues
 
-**Why**:
+<!-- Link related issues: Fixes #123, Closes #456 -->
 
-<!-- How were these changes implemented? -->
+## Changes
 
-**How**:
+<!-- List key changes -->
 
-<!-- Have you done all of these things?  -->
+-
+-
 
-**Checklist**:
+## Testing
 
-<!-- add "N/A" to the end of each line that's irrelevant to your changes -->
-<!-- to check an item, place an "x" in the box like so: "- [x] Documentation" -->
+<!-- How did you test this? -->
 
-- [ ] Documentation
-- [ ] Tests
-- [ ] Ready to be merged
-      <!-- In your opinion, is this ready to be merged as soon as it's reviewed? -->
+- [ ] Tests added/updated
+- [ ] All tests passing
 
-<!-- feel free to add additional comments -->
+## Checklist
+
+- [ ] Code follows project style
+- [ ] Self-reviewed
+- [ ] Documentation updated (if needed)
+- [ ] No breaking changes (or documented)
+
+## Screenshots/Notes
+
+<!-- Optional: Add screenshots or additional context -->
