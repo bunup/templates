@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@types/bun": "^1.2.23",
-    "bunup": "^0.14.19",
+    "bunup": "^0.14.20",
     "typescript": "^5.9.3"
   },
   "private": true,
