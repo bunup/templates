@@ -12,8 +12,6 @@
   "scripts": {
     "build": "bunup",
     "dev": "bunup --watch",
-    "format": "biome format .",
-    "format:fix": "biome format --write .",
     "lint": "biome check .",
     "lint:fix": "biome check --write .",
     "prepare": "bun simple-git-hooks",
