@@ -1,6 +1,6 @@
 # [project_name]
 
-A react component library
+[project_description]
 
 ## Installation
 

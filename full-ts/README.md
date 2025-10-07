@@ -1,6 +1,6 @@
 # [project_name]
 
-A typescript library
+[project_description]
 
 ## Installation
 
