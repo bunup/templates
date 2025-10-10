@@ -14,7 +14,7 @@
 		"dev": "bunup --watch",
 		"lint": "biome check",
 		"format": "biome format --write",
-		"prepare": "bun simple-git-hooks",
+		"postinstall": "bun simple-git-hooks",
 		"release": "bumpp -r --commit --push --tag",
 		"test": "bun test",
 		"test:coverage": "bun test --coverage",
