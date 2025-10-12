@@ -17,9 +17,9 @@
 	"scripts": {
 		"build": "bunup",
 		"dev": "bun run --cwd test/ui dev",
-		"format": "biome format --write",
 		"postinstall": "bun simple-git-hooks",
-		"lint": "biome check",
+		"lint": "biome check .",
+		"lint:fix": "biome check --write .",
 		"release": "bumpp --commit --push --tag",
 		"test": "bun test",
 		"test:coverage": "bun test --coverage",
