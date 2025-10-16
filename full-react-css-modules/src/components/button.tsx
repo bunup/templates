@@ -1,11 +1,11 @@
-import styles from "./button.module.css";
+import styles from './button.module.css'
 
-type ButtonProps = React.ComponentProps<"button"> & {
-	variant?: "primary" | "secondary" | "danger";
-};
+type ButtonProps = React.ComponentProps<'button'> & {
+	variant?: 'primary' | 'secondary' | 'danger'
+}
 
 export function Button({
-	variant = "primary",
+	variant = 'primary',
 	...props
 }: ButtonProps): React.ReactNode {
 	return (
@@ -14,5 +14,5 @@ export function Button({
 			className={`${styles.button} ${styles[variant]}`}
 			{...props}
 		/>
-	);
+	)
 }
