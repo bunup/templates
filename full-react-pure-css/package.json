@@ -24,7 +24,7 @@
 		"test": "bun test",
 		"test:coverage": "bun test --coverage",
 		"test:watch": "bun test --watch",
-		"tsc": "tsc --noEmit"
+		"type-check": "tsc --noEmit"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.2.5",
