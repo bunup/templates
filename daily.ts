@@ -67,7 +67,7 @@ for (const p of packages) {
 
 	try {
 		const packageJson = await Bun.file(`${p}/package.json`).json();
-		if (packageJson.scripts?.format) {
+		if (packageJson.scripts?.["lint:fix"]) {
 			await $`cd ${p} && bun run lint:fix`;
 		}
 	} catch (error) {
