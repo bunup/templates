@@ -46,7 +46,7 @@
 
     "@biomejs/cli-win32-x64": ["@biomejs/cli-win32-x64@2.3.0", "", { "os": "win32", "cpu": "x64" }, "sha512-zOCYmCRVkWXc9v8P7OLbLlGGMxQTKMvi+5IC4v7O8DkjLCOHRzRVK/Lno2pGZNo0lzKM60pcQOhH8HVkXMQdFg=="],
 
-    "@bunup/dts": ["@bunup/dts@0.14.34", "", { "dependencies": { "@babel/parser": "^7.28.4", "coffi": "^0.1.37", "oxc-minify": "^0.93.0", "oxc-resolver": "^11.9.0", "oxc-transform": "^0.93.0", "picocolors": "^1.1.1", "std-env": "^3.9.0", "ts-import-resolver": "^0.1.23" }, "peerDependencies": { "typescript": ">=4.5.0" }, "optionalPeers": ["typescript"] }, "sha512-83g9C34ZyUD8Hvvf5EFPPGGdmi6YeQU7BIvKU9iNQ80OPPHfD1M0L34OczanUjhKmQC9j/um6BmT6EkJxc9QZQ=="],
+    "@bunup/dts": ["@bunup/dts@0.14.36", "", { "dependencies": { "@babel/parser": "^7.28.4", "coffi": "^0.1.37", "oxc-minify": "^0.93.0", "oxc-resolver": "^11.9.0", "oxc-transform": "^0.93.0", "picocolors": "^1.1.1", "std-env": "^3.9.0", "ts-import-resolver": "^0.1.23" }, "peerDependencies": { "typescript": ">=4.5.0" }, "optionalPeers": ["typescript"] }, "sha512-SLXar/fvh0JuAp/3Tz5qiNKSN3g3IFfKawhVBLKdcbdpziYfQguN33FooGpN1Ua3hMnrv7UPumGhIsU2vkvlkA=="],
 
     "@bunup/shared": ["@bunup/shared@0.15.6", "", { "peerDependencies": { "typescript": ">=4.5.0" }, "optionalPeers": ["typescript"] }, "sha512-bQanFnfO9t6rfEGnWUNZmw7MrVt/scZWSOKqengvEHKoiBsarAdMFwOsgo/mkopPpP0c1LCJpT/2pNjjXiEH0A=="],
 
