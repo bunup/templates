@@ -32,8 +32,8 @@
     "@types/react": "^19.2.7",
     "bumpp": "^10.3.2",
     "bunup": "^0.16.10",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^5.9.3"
   },
