@@ -12,11 +12,11 @@
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@bunup/plugin-tailwindcss": "^0.16.11",
+    "@bunup/plugin-tailwindcss": "^0.16.17",
     "@types/bun": "^1.3.5",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
-    "bunup": "^0.16.11",
+    "bunup": "^0.16.17",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "tailwindcss": "^4.1.18",
