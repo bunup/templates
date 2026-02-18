@@ -55,9 +55,3 @@ for (const p of packages) {
 		logError(p, "Run format", error);
 	}
 }
-
-try {
-	await $`bunx better-sort-package-json **/package.json`;
-} catch (error) {
-	logError("all packages", "Sort package.json files", error);
-}
