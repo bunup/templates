@@ -11,9 +11,9 @@ bun add [project_name]
 ## Usage
 
 ```typescript
-import { greet } from '[project_name]';
+import { greet } from "[project_name]";
 
-console.log(greet('World')); // Hello, World!
+console.log(greet("World")); // Hello, World!
 ```
 
 ## Contributing

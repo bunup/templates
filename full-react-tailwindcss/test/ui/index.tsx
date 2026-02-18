@@ -1,10 +1,10 @@
-import { serve } from 'bun'
-import index from './index.html'
+import { serve } from "bun";
+import index from "./index.html";
 
 serve({
 	routes: {
-		'/*': index,
+		"/*": index,
 	},
-})
+});
 
-console.log('🚀 Server running at http://localhost:3000')
+console.log("🚀 Server running at http://localhost:3000");
