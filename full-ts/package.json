@@ -17,8 +17,8 @@
   "scripts": {
     "build": "bunup",
     "dev": "bunup --watch",
-    "lint": "biome check .",
-    "lint:fix": "biome check --write .",
+    "format": "oxfmt",
+    "lint": "oxlint",
     "prepare": "bun simple-git-hooks",
     "release": "bumpp --commit --push --tag",
     "test": "bun test",
@@ -27,10 +27,11 @@
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.2",
     "@types/bun": "^1.3.9",
     "bumpp": "^10.4.1",
     "bunup": "^0.16.26",
+    "oxfmt": "^0.33.0",
+    "oxlint": "^1.48.0",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^5.9.3"
   },

@@ -25,7 +25,7 @@ Run `bun run dev` - This starts a Bun + React preview app at http://localhost:30
 1. Create a new branch: `git checkout -b feature/your-feature-name`
 2. Start development mode: `bun run dev`
 3. Make your changes and test them live in the preview app
-4. Check and fix code style and formatting issues: `bun run lint:fix`
+4. Check code style and formatting: `bun run lint` and `bun run format`
 5. Build the project: `bun run build`
 6. Commit your changes using the conventions below
 7. Push your branch to your fork

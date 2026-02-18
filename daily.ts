@@ -40,25 +40,6 @@ for (const p of packages) {
 	}
 
 	try {
-		const packageJson = await Bun.file(`${p}/package.json`).json();
-		const biomeField = packageJson.devDependencies?.["@biomejs/biome"];
-		if (biomeField) {
-			const biomeVersion = biomeField.slice(1);
-			const biomeSchema = await Bun.file(`${p}/biome.json`).json();
-			const newBiomeSchema = {
-				...biomeSchema,
-				$schema: `https://biomejs.dev/schemas/${biomeVersion}/schema.json`,
-			};
-			await Bun.write(
-				`${p}/biome.json`,
-				JSON.stringify(newBiomeSchema, null, 2),
-			);
-		}
-	} catch (error) {
-		logError(p, "Update Biome schema", error);
-	}
-
-	try {
 		await $`cd ${p} && rm -rf .husky`;
 	} catch (error) {
 		logError(p, "Remove .husky", error);
@@ -67,8 +48,8 @@ for (const p of packages) {
 
 	try {
 		const packageJson = await Bun.file(`${p}/package.json`).json();
-		if (packageJson.scripts?.["lint:fix"]) {
-			await $`cd ${p} && bun run lint:fix`;
+		if (packageJson.scripts?.format) {
+			await $`cd ${p} && bun run format`;
 		}
 	} catch (error) {
 		logError(p, "Run format", error);

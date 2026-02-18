@@ -20,7 +20,7 @@ Thank you for your interest in contributing to our project! This guide will help
 
 1. Create a new branch: `git checkout -b feature/your-feature-name`
 2. Make your changes
-3. Check and fix code style and formatting issues: `bun run lint:fix`
+3. Check code style and formatting: `bun run lint` and `bun run format`
 4. Run tests: `bun run test`
 5. Build the project: `bun run build`
 6. Commit your changes using the conventions below
