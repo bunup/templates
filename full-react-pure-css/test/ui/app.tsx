@@ -1,6 +1,6 @@
-import "./styles.css";
+import './styles.css';
 
-import { Button } from "../../src";
+import { Button } from '../../src';
 
 export function App() {
 	return (

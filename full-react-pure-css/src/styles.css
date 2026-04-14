@@ -10,7 +10,7 @@
 	}
 }
 
-[data-slot="button"] {
+[data-slot='button'] {
 	background: var(--button-bg);
 	color: hsl(0, 0%, 100%);
 	padding: 0.6rem 1.2rem;
@@ -21,6 +21,6 @@
 	font-weight: 400;
 }
 
-[data-slot="button"]:hover {
+[data-slot='button']:hover {
 	background: var(--button-bg-hover);
 }

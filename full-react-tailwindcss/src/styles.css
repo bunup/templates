@@ -1,1 +1,1 @@
-@import "tailwindcss" prefix([package_name_letters_only]);
+@import 'tailwindcss' prefix([package_name_letters_only]);

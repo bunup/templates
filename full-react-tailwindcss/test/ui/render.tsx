@@ -1,11 +1,11 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import { App } from "./app";
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { App } from './app';
 
-const elem = document.getElementById("root");
+const elem = document.getElementById('root');
 
 if (!elem) {
-	throw new Error("Could not find root element");
+	throw new Error('Could not find root element');
 }
 
 const app = (
