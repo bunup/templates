@@ -45,7 +45,7 @@
 		"oxfmt": "^0.45.0",
 		"oxlint": "^1.60.0",
 		"simple-git-hooks": "^2.13.1",
-		"typescript": "^6.0.2"
+		"typescript": "^6.0.3"
 	},
 	"peerDependencies": {
 		"typescript": ">=4.5.0"
