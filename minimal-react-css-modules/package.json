@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@types/bun": "^1.3.14",
-    "@types/react": "^19.2.16",
+    "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "bunup": "^0.16.32",
     "react": "^19.2.7",
