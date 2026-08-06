@@ -46,7 +46,7 @@
 		"@bunup/plugin-tailwindcss": "^0.16.32",
 		"@types/bun": "^1.3.14",
 		"@types/react": "^19.2.18",
-		"bumpp": "^12.1.1",
+		"bumpp": "^12.2.0",
 		"bunup": "^0.16.32",
 		"oxfmt": "^0.62.0",
 		"oxlint": "^1.77.0",
