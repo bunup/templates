@@ -15,7 +15,7 @@
     "@bunup/plugin-tailwindcss": "^0.16.32",
     "@types/bun": "^1.4.0",
     "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.4",
+    "@types/react-dom": "^19.2.5",
     "bunup": "^0.16.32",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
